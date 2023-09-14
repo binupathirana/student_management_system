@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+input[type=button] {
+    color: white;
+    padding: 70px 70px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    float:inherit;
+	font-size: 30px;
+}
+h1{
+	text-align: center;
+	background-color: #A7E7FF;
+}
+
+body{
+	background:#CDFBFF;
+}
+
+input[type=button]:hover {
+	background-color: #9A9A9A;
+}
+
+.button{
+	background-color: #00AF45;
+} /* Green */
+.button2 {
+	background-color: #008CBA;
+} /* Blue */
+.button3 {
+	background-color: #f44336;
+} /* Red */
+.button4 {
+	background-color: #01A6A8; 
+	color: black;
+} /* Gray */
+.button5 {
+	background-color: #FFDD00;
+} /* Black */
+

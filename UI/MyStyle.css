@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #CDFBFF;
+}
+
+body > table{
+    width: 100%;
+}
+h1{
+	text-align: center;
+	background-color: #FFF8D4;
+}
+h3{
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+	
+}
+table.tableSearch{
+    width:100%;
+    text-align: center;
+	
+}
+table.tableSearch td{
+    text-align: center;
+}
+
+td, th {
+    border: 1px solid #dddd;
+    text-align:left;
+    padding: 8px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 20px
+}
+th{
+	background-color:#FF8E10;
+}
+tr:nth-child(even),table.table-striped thead>tr {
+    background-color:#FFF8D4;
+}
+input[type=text] {
+    
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=button]{
+    background-color:#FF8E10;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    float:inherit;
+	text-align: center
+}
+
+input[type=button]:hover {
+    background-color:#000000;
+}
+
+input[type=submit]{
+    background-color:#FF8E10;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    float:inherit;
+	text-align: center
+}
+
+input[type=submit]:hover {
+    background-color:#000000;
+}
+
+input[type=reset]{
+    background-color:#FF8E10;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    float:inherit;
+	text-align: center
+}
+
+input[type=reset]:hover {
+    background-color:#000000;
+}
+#searchOption, #deleteOption{
+	padding: 12px 20px;
+	margin: 8px 0;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+form{
+	text-align: center
+}
+.hide{
+    display:none;
+}
+
